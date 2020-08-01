@@ -1,2 +1,2 @@
-/input  IN_CREATE       /usr/local/bin/ocrmypdf $@/$# /output/$# && rm $@/$#
+/input  IN_CREATE       /usr/local/bin/ocr.sh $@/$# /output/$# 
 

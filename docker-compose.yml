@@ -1,0 +1,9 @@
+version: '3'
+services:
+ ocr:
+  image: asdlfkj31h/ocrmypdf:latest
+  container_name: ocr
+  volumes:
+   - /mnt/input:/input
+   - /mnt/output:/output
+  restart: always

@@ -7,4 +7,4 @@ push:
 	docker push asdlfkj31h/ocrmypdf:latest
 
 test:
-	docker run --rm -it -v /Users/gerolf/Desktop/input:/input -v /Users/gerolf/Desktop/output:/output  asdlfkj31h/ocrmypdf:latest 
+	docker run --rm -it -v /tmp/input:/input -v /tmp/output:/output  asdlfkj31h/ocrmypdf:latest 

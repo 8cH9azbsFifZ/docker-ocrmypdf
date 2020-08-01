@@ -1,5 +1,7 @@
 FROM jbarlow83/ocrmypdf
 
+MAINTAINER Gerolf Ziegenhain <gerolf.ziegenhain@gmail.com>
+
 # Install incron and make dirs
 RUN mkdir /input /output
 COPY ./incrontab /app/incrontab

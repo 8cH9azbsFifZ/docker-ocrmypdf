@@ -1,4 +1,4 @@
-VER=0.3
+VER=0.4
 build:
 	docker build . -t asdlfkj31h/ocrmypdf:${VER} -t asdlfkj31h/ocrmypdf:latest
 

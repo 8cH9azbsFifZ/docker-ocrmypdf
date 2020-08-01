@@ -7,4 +7,5 @@ Docker image with ocrmypdf and incron
 - Output in /output (uid=1000)
 
 ## References:
+- Depends on Container created here: https://github.com/jbarlow83/OCRmyPDF
 - https://www.howtoforge.com/tutorial/trigger-commands-on-file-or-directory-changes-with-incron/

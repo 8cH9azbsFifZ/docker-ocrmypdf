@@ -1,2 +1,2 @@
 #!/bin/bash
-/usr/local/bin/ocrmypdf "$1" "$2" && rm "$1"
+/usr/local/bin/ocrmypdf --force-ocr "$1" "$2" && rm "$1"

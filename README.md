@@ -1,5 +1,7 @@
 # docker-ocrmypdf
 
+** STATUS: outdated **
+
 Docker image with ocrmypdf and incron
 
 - Volumes: /input and /output
